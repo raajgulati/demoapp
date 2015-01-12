@@ -1,0 +1,6 @@
+class AddIndexToTransferDetails < ActiveRecord::Migration
+  def change
+   
+    add_index :transfer_details, :uan, unique: true
+  end
+end

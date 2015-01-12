@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  uan: MyString
+  member_id: MyString
+  member_name: MyString
+  father_husband_name: MyString
+  date_of_birth: 2015-01-04
+  date_of_joining: 2015-01-04
+  establishment_id: MyString
+  establishment_name: MyString
+  concerned_with: MyString
+
+two:
+  uan: MyString
+  member_id: MyString
+  member_name: MyString
+  father_husband_name: MyString
+  date_of_birth: 2015-01-04
+  date_of_joining: 2015-01-04
+  establishment_id: MyString
+  establishment_name: MyString
+  concerned_with: MyString

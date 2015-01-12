@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  uan: MyString
+  particulars: MyText
+  particulars_type: MyString
+  deposit_employee_share: 1.5
+  deposit_employer_share: 1.5
+  withdrawls_employee_share: 1.5
+  withdrawls_employer_share: 1.5
+  pension_contribution: 1.5
+
+two:
+  uan: MyString
+  particulars: MyText
+  particulars_type: MyString
+  deposit_employee_share: 1.5
+  deposit_employer_share: 1.5
+  withdrawls_employee_share: 1.5
+  withdrawls_employer_share: 1.5
+  pension_contribution: 1.5

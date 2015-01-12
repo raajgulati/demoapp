@@ -1,0 +1,6 @@
+class AddIndexToUserProfiles < ActiveRecord::Migration
+  def change
+    add_column :user_profiles, :uan, :string
+    add_index :user_profiles, :uan, unique: true
+  end
+end

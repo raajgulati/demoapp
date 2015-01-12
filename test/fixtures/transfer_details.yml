@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  uan: MyString
+  transfer_from_member_id: MyString
+  transfer_from_office_id: MyString
+  amount_employee_share: 1.5
+  amount_employer_share: 1.5
+  service_details_date_of_joining: 2015-01-04
+  service_details_date_of_exit: 2015-01-04
+  service_details_actual_service: MyString
+  approved_date: 2015-01-04
+
+two:
+  uan: MyString
+  transfer_from_member_id: MyString
+  transfer_from_office_id: MyString
+  amount_employee_share: 1.5
+  amount_employer_share: 1.5
+  service_details_date_of_joining: 2015-01-04
+  service_details_date_of_exit: 2015-01-04
+  service_details_actual_service: MyString
+  approved_date: 2015-01-04

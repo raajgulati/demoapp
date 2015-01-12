@@ -1,0 +1,2 @@
+class TransferDetail < ActiveRecord::Base
+end

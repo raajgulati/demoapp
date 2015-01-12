@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+
+<h1> User Details</h1>
+<% @user_profile.attributes.each do |key,value| %>
+    <p><%= key %>: <%= value %></p>
+<% end %>
+
+<h1> Transfer Details</h1>
+<% @user_profile.transfer_details.each do |transfer_detail| %>
+    <% transfer_detail.attributes.each do |key,value| %>
+        <p><%= key %>: <%= value %></p>
+    <% end %>
+<% end %>
+
+<h1> Contribution/Withdrawl Details</h1>
+<% @user_profile.contribution_withdrawl_details.each do |contribution_detail| %>
+    <% contribution_detail.attributes.each do |key,value| %>
+        <p><%= key %>: <%= value %></p>
+    <% end %>
+<% end %>
+
+<%= link_to 'Edit', edit_user_profile_path(@user_profile) %> |
+<%= link_to 'Back', user_profiles_path %>
